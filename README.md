@@ -4,11 +4,13 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Database
 
-Create a database in file application.properties
+Create database ```create database ecommerce;```
+
+Configure database in file application.properties
 
 ```
 spring.jpa.hibernate.ddl-auto=update
-spring.datasource.url=jdbc:mysql://${MYSQL_HOST:localhost}:3306/DATABASENAME
+spring.datasource.url=jdbc:mysql://${MYSQL_HOST:localhost}:3306/ecommerce
 spring.datasource.username=root
 spring.datasource.password=
 ```
